@@ -1,1 +1,1 @@
-print("Fuck Nguyen Van Lam")
+print("Fuck Nguyen Van Lam ngu lz")

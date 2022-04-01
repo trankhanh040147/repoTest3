@@ -37,39 +37,43 @@ namespace wftest2
             // Fuckyou
             // 
             this.Fuckyou.FormattingEnabled = true;
-            this.Fuckyou.ItemHeight = 20;
-            this.Fuckyou.Location = new System.Drawing.Point(202, 56);
+            this.Fuckyou.ItemHeight = 25;
+            this.Fuckyou.Location = new System.Drawing.Point(252, 70);
+            this.Fuckyou.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Fuckyou.Name = "Fuckyou";
-            this.Fuckyou.Size = new System.Drawing.Size(463, 284);
+            this.Fuckyou.Size = new System.Drawing.Size(578, 354);
             this.Fuckyou.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(391, 165);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Location = new System.Drawing.Point(489, 206);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 31);
+            this.button1.Size = new System.Drawing.Size(108, 39);
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(55, 68);
+            this.button2.Location = new System.Drawing.Point(69, 85);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 29);
+            this.button2.Size = new System.Drawing.Size(118, 36);
             this.button2.TabIndex = 2;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 451);
+            this.ClientSize = new System.Drawing.Size(1000, 564);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Fuckyou);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
